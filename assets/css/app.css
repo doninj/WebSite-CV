@@ -1,3 +1,176 @@
-body {
-    background-color: gray;
+
+    @font-face{
+        font-family: 'Monserrat';
+        src: url(../fonts/Montserrat-Bold.ttf) format('truetype');
+       
+    }
+    @font-face{
+        font-family: 'noto';
+        src: url(../fonts/NotoSans-Regular.ttf) format('truetype');
+    }
+    body {
+        font-family: 'Monserrat';
+
+}
+#logo_face{
+    width: 70px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: #FFF;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.25);
+}
+#logo_face1{
+    width: 100px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: #FFF;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.25);
+}
+.bg-primary {
+    background-color: #3e3f3a !important;
+    height: 50px;
+}
+.navbar-text{
+    color: #FFF!important;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Monserrat';
+    font-style: normal;
+    font-weight: 700;
+   
+    
+}
+.navbar{
+    font-size: 12px;
+    font-family: 'Monserrat';
+}
+.contain_pres{
+    background-color: #231F20;
+    font-family: 'Monserrat';
+
+    display: flex;
+    height: 750px;
+}
+.pres_text{
+    height: 100%;
+    width: 33.33%;
+    color: white;
+    position: relative;
+
+    
+}
+.pres_img{
+    height: 100%;
+    width: 33.33%;
+    background-image: url(../images/jb.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pres_projet{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#pres_img_jb{
+    height: inherit!important;
+    
+}
+#nomH1{
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 800;
+
+}
+#nomp{
+    color: #FFF;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.3em;
+
+}
+#presentation{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0% 20% 0% 20%;
+}
+.container-all{
+    display: flex;
+    flex-direction: column;
+}
+#specialité1{
+    text-align: right;
+}
+#contain_description{
+    padding: 5% 0% 0% 0%;
+    font-family: 'Monserrat';
+}
+#projet_img{
+    height: 60%;
+}
+#projet_description{
+    height: 40%;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3em;
+    font-family: "noto",Sans-serif!important;
+    padding: 0 5% 0 5%;
+}
+
+#presentation_parcours{
+    display: flex;
+    padding-top: 5%;
+}
+#titre_pres{
+    font-size: 30px;
+}
+#parcours{
+    text-align: center;
+    font-family: "noto";
+    font-size: 16px;
+}
+#span{
+    border-top: 1px solid black;
+    height: 0.1px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    opacity: 0.3;
+
+}
+#button_link{
+    display:flex;
+    margin-top: 0px;
+    align-items: center;
+    background-color: black;
+}
+#button_link1{
+    margin-left: auto;
+    margin-right: auto;
+}
+#savoir_plus{
+    background-color: #231F20!important;
+    border-color: #231F20!important;
+}
+#Travail{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(34, 34, 34);
+    background-image: linear-gradient(180deg,rgba(35,31,32,.28) 50%,#231F20 100%);
+    
 }

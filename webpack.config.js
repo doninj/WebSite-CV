@@ -70,15 +70,27 @@ Encore
     //.enableReactPreset()
     //.addEntry('admin', './assets/js/admin.js')
     .copyFiles({
-                 from: './assets/images',
-        
-                 // optional target path, relative to the output dir
-        
-                 // if versioning is enabled, add the file hash too
-                 to: 'images/[path][name].[hash:8].[ext]'
+     from: './assets/images',
+
+     // optional target path, relative to the output dir
+
+     // if versioning is enabled, add the file hash too
+     to: 'images/[path][name].[hash:8].[ext]'
+    })
+    .copyFiles({
+                
         
                  // only copy files matching this pattern
                 //pattern: /\.(png|jpg|jpeg)$/
+                from: './assets/fonts',
+        
+                // optional target path, relative to the output dir
+       
+                // if versioning is enabled, add the file hash too
+                to: 'fonts/[path][name].[hash:8].[ext]'
+       
+                // only copy files matching this pattern
+               //pattern: /\.(png|jpg|jpeg)$/
            })
 ;
 

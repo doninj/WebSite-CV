@@ -1,2 +1,76 @@
 {% extends "/base.html.twig" %}
 
+{% block body %}
+<div class="container-all">
+    <div class='contain_pres'>
+        <div class='pres_text'>
+            <div id="presentation">
+                <i class="fab fa-500px"></i>
+                <p id='nomp'>hello c'est moi</p>
+
+                <h1 id='nomH1'>{{"Donin"|upper}} <br>{{'Jean-Baptiste'|upper}}</h1>
+                <br>
+                <p id='nomp'>Développeur web symfony</p>
+            </div>
+        </div>
+        <div class='pres_img'>
+        </div>
+        <div class='pres_projet'>
+            <div id="projet_img">
+            </div>
+            <div id="projet_description">
+                <p> Etudiant en bachelor 3 informatique, je suis Développeur web sur le framework symfony.</p>
+
+                <p> Je suis à la recherche d'une alternance pou mon année de bachelor en developpement web.</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="contain_description">
+        <div id="specialité" class="container">
+            <div class="row">
+                <div id="specialité1" class="col">
+                    Développeur web </div>
+                <div class="col">
+                    Specialiste Symfony
+                </div>
+            </div>
+            <div id="presentation_parcours">
+                <div id="titre_pres">
+                    Je suis développeur Front / PHP
+                </div>
+                <div id="parcours">
+                    <p>J’ai commencé le développement sur feu “Le site du zéro”. </p>
+
+                    <p>Dessus, j’ai pu découvrir une multitude de technologies et de langages de programmation. Quelques
+                        années plus tard, j’ai quitté mon poste pour passer un certificat d’intégrateur Web et j’ai
+                        choisis PHP comme véritable langage de développement.</p>
+                    <p>Aujourd’hui je travaille principalement sur des CMS comme WordPress ou PrestaShop avec des offres
+                        alliant programmation pure (création d’un thème sur mesure et optimisé) à l’intégration d’un
+                        design sous Elementor.</p>
+
+                </div>
+
+            </div>
+            <div id="element_barre">
+                <span id="span"></span>
+            </div>
+            <div id="button_link">
+                <div id="button_link1">
+                    <a href="https://google.com" id="savoir_plus" class="btn btn-primary"><i
+                            class="fas fa-arrow-left"></i> En savoir plus moi</a>
+                </div>
+                <div>
+                    <img id="logo_face1" src="{{asset('build/images/jb.jpg')}}" alt="">
+                </div>
+                <div id="button_link1">
+                    <a href="https://google.com" id="savoir_plus" class="btn btn-primary">Portofolio <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Travail">
+    </div>
+</div>
+{% endblock %}
