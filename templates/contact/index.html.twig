@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ContactController!{% endblock %}
+
+{% block body %}
+<div class="container">
+  {{ form_start(form) }}
+      <div class="form-group">
+
+    {{ form_row(form.nom,{'attr':{'class':'form-control'}})}}
+</div>
+  <div class="form-group">
+
+         {{ form_row(form.mail,{'attr':{'class':'form-control'}}) }}
+</div>
+ <div class="form-group">
+
+         {{ form_row(form.message,{'attr':{'class':'form-control'}}) }}
+</div>
+  <div class="form-group">
+
+    <button type="submit" class="btn btn-primary">Creer pin</button>
+    </div>
+    {{ form_end(form) }}
+    </div>
+
+{% endblock %}

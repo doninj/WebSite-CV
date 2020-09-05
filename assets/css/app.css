@@ -1,39 +1,44 @@
-
-    @font-face{
-        font-family: 'Monserrat';
-        src: url(../fonts/Montserrat-Bold.ttf) format('truetype');
-       
-    }
-    @font-face{
-        font-family: 'noto';
-        src: url(../fonts/NotoSans-Regular.ttf) format('truetype');
-    }
-    body {
-        font-family: 'Monserrat';
+@font-face {
+    font-family: 'Monserrat';
+    src: url(../fonts/Montserrat-Bold.ttf) format('truetype');
 
 }
-#logo_face{
+
+@font-face {
+    font-family: 'noto';
+    src: url(../fonts/NotoSans-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Monserrat';
+
+}
+
+#logo_face {
     width: 70px;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
     border-color: #FFF;
     border-radius: 100px 100px 100px 100px;
-    box-shadow: 0 0 25px 0 rgba(0,0,0,.25);
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .25);
 }
-#logo_face1{
+
+#logo_face1 {
     width: 100px;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
     border-color: #FFF;
     border-radius: 100px 100px 100px 100px;
-    box-shadow: 0 0 25px 0 rgba(0,0,0,.25);
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .25);
 }
+
 .bg-primary {
     background-color: #3e3f3a !important;
     height: 50px;
 }
-.navbar-text{
-    color: #FFF!important;
+
+.navbar-text {
+    color: #FFF !important;
     font-size: 12px;
     text-transform: uppercase;
     margin-top: auto;
@@ -41,29 +46,33 @@
     font-family: 'Monserrat';
     font-style: normal;
     font-weight: 700;
-   
-    
+
+
 }
-.navbar{
+
+.navbar {
     font-size: 12px;
     font-family: 'Monserrat';
 }
-.contain_pres{
+
+.contain_pres {
     background-color: #231F20;
     font-family: 'Monserrat';
 
     display: flex;
     height: 750px;
 }
-.pres_text{
+
+.pres_text {
     height: 100%;
     width: 33.33%;
     color: white;
     position: relative;
 
-    
+
 }
-.pres_img{
+
+.pres_img {
     height: 100%;
     width: 33.33%;
     background-image: url(../images/jb.jpg);
@@ -71,26 +80,30 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.pres_projet{
+
+.pres_projet {
     height: 100%;
     width: 33.33%;
     display: flex;
     flex-direction: column;
-    
+
 }
-#pres_img_jb{
-    height: inherit!important;
-    
+
+#pres_img_jb {
+    height: inherit !important;
+
 }
-#nomH1{
+
+#nomH1 {
     color: #FFF;
     font-size: 60px;
     font-weight: 800;
 
 }
-#nomp{
+
+#nomp {
     color: #FFF;
-    font-family: "Montserrat",Sans-serif;
+    font-family: "Montserrat", Sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-transform: none;
@@ -99,7 +112,8 @@
     line-height: 1.3em;
 
 }
-#presentation{
+
+#presentation {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -107,70 +121,172 @@
     transform: translateY(-50%);
     padding: 0% 20% 0% 20%;
 }
-.container-all{
+
+.container-all {
     display: flex;
     flex-direction: column;
 }
-#specialité1{
+
+#specialité1 {
     text-align: right;
 }
-#contain_description{
+
+#contain_description {
     padding: 5% 0% 0% 0%;
     font-family: 'Monserrat';
 }
-#projet_img{
+
+#projet_img {
     height: 60%;
 }
-#projet_description{
+
+#projet_description {
     height: 40%;
     color: white;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.3em;
-    font-family: "noto",Sans-serif!important;
+    font-family: "noto", Sans-serif !important;
     padding: 0 5% 0 5%;
 }
 
-#presentation_parcours{
+#presentation_parcours {
     display: flex;
     padding-top: 5%;
 }
-#titre_pres{
+
+#titre_pres {
     font-size: 30px;
 }
-#parcours{
+
+#parcours {
     text-align: center;
     font-family: "noto";
     font-size: 16px;
 }
-#span{
-    border-top: 1px solid black;
+
+#span {
+    border-top: 1px solid rgb(102, 102, 102);
     height: 0.1px;
     margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
     display: block;
     opacity: 0.3;
+    color:rgb(102, 102, 102);
 
 }
-#button_link{
-    display:flex;
+
+#button_link {
+    display: flex;
     margin-top: 0px;
     align-items: center;
-    background-color: black;
+    background-color: rgba(10, 10, 10, .80);
+    border-radius: 34px 34px 0px 0px;
+    margin-top: 50px;
 }
-#button_link1{
+
+#button_link1 {
     margin-left: auto;
     margin-right: auto;
 }
-#savoir_plus{
-    background-color: #231F20!important;
-    border-color: #231F20!important;
+
+#savoir_plus {
+    background-color: #231F20 !important;
+    border-color: #231F20 !important;
 }
-#Travail{
+
+#Travail {
     width: 100%;
-    height: 500px;
+    display: flex;
+    height: 600px;
     background-color: rgb(34, 34, 34);
-    background-image: linear-gradient(180deg,rgba(35,31,32,.28) 50%,#231F20 100%);
+    background-image: linear-gradient(180deg, rgba(35, 31, 32, .28) 50%, #231F20 100%);
+    position: relative;
+    font-family: "noto" !important;
+
+   
+}
+
+#block_idée {
+    display: flex;
+    height: 100%;
+
+}
+#block{
+width: 25%;
+background-color: rgba(10, 10, 10, .50);
+height: 100%;
+padding: 30px 30px 30px 30px;
+
+}
+#block2{
+    width: 25%;
+    background-color: rgba(10, 10, 10, .10);
+    height: 100%;
+    padding: 30px 30px 30px 30px;
     
+    }
+ #block3{
+width: 25%;
+background-color: rgba(10, 10, 10, .50);
+height: 100%;
+padding: 30px 30px 30px 30px;
+}
+#block4{
+    width: 25%;
+    background-color: rgba(10, 10, 10, .10);
+    height: 100%;
+    padding: 30px 30px 30px 30px;
+}
+#block_all{
+    display: flex;
+    flex-direction: column;
+    width:65%;
+    height: 45%;
+    background-color: rgba(0,0,0,.2);
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
+    position: absolute;
+    /* top: 0; */
+    /* margin-top: 100%; */
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#text_block{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.65);
+    margin-top: 7%;
+    
+}
+#block_description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.65);
+    line-height:28.8px;
+    margin-top: 15%;
+}
+#titre_block{
+    font-size: 18px;
+    font-weight: 600;
+    line-height:23.4px;
+   margin:auto;
+}
+.far.fa-comments{
+
+    font-size:60px;
+    margin-left: 20px;
+    
+}
+.fab{
+    font-size:60px;
+    margin-left: 20px;
+}
+#block_pres{
+    height: 30%;
+    display: flex;
 }
