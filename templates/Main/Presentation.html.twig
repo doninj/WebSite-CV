@@ -17,11 +17,38 @@
         </div>
         <div class='pres_projet'>
             <div id="projet_img">
+                <h1 id="projets_titre">Mes différents projets </h1>
+                <div class="container carousel_projet">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href=""> <img src="{{ asset('build/images/tablette.png')}}" alt="Carrousel slide 1"
+                                        class="d-block w-100"></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href=""> <img id='carousel2' src="{{ asset('build/images/ecran.png') }}"
+                                        alt="Carrousel slide 2" class="d-block w-100"> </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href=""> <img id='tableau' src="{{ asset('build/images/trois_tableau.png') }}"
+                                        alt="Carrousel slide 2" class="d-block w-100"> </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href=""> <img id='tableau' src="{{ asset('build/images/starwars.png') }}"
+                                        alt="Carrousel slide 2" class="d-block w-100"> </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="projet_description">
                 <p> Etudiant en bachelor 3 informatique, je suis Développeur web sur le framework symfony.</p>
-
-                <p> Je suis à la recherche d'une alternance pou mon année de bachelor en developpement web.</p>
+                <p> Je suis à la recherche d'une alternance pour mon année de bachelor en developpement web.</p>
+                <div id="logo">
+                   <a href="https://www.linkedin.com/in/jean-baptiste-donin-53b308163/"> <i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/doninj"><i class="fab fa-github-square"></i></a>
+                </div>
             </div>
 
         </div>
@@ -71,6 +98,69 @@
         </div>
     </div>
     <div id="Travail">
+        <div id="text_block">
+            <h1>Présentation de mes compétences </h1>
+            <h2>Quels sont mes compétences ?</h2>
+        </div>
+        <div id="block_all">
+            <div id="block_idée">
+                <div id="block">
+                    <div id="block_pres">
+
+                        <h1 id="titre_block"> Presentation </h1>
+                        <i class="far fa-comments"></i>
+                    </div>
+                    <div id="element_barre">
+                        <span id="span"></span>
+                    </div>
+                    <div id="block_description">
+                        <p>Série d’échanges pour préparer la mise en place du projet.</p>
+                    </div>
+
+                </div>
+                <div id="block2">
+                    <div id="block_pres">
+                        <h1 id="titre_block"> Symfony </h1>
+                        <i class="fab fa-symfony"></i>
+                    </div>
+                    <div id="element_barre">
+                        <span id="span"></span>
+                    </div>
+                    <div id="block_description">
+                        <p>Série d’échanges pour préparer la mise en place du projet.</p>
+                    </div>
+
+                </div>
+                <div id="block3">
+                    <div id="block_pres">
+                        <h1 id="titre_block"> VueJs </h1>
+                        <i class="fab fa-vuejs"></i>
+                    </div>
+                    <div id="element_barre">
+                        <span id="span"></span>
+                    </div>
+                    <div id="block_description">
+                        <p>Série d’échanges pour préparer la mise en place du projet.</p>
+                    </div>
+
+                </div>
+                <div id="block4">
+                    <div id="block_pres">
+                        <h1 id="titre_block"> Javascript </h1>
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div id="element_barre">
+                        <span id="span"></span>
+                    </div>
+                    <div id="block_description">
+                        <p>Série d’échanges pour préparer la mise en place du projet.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
+
+
 </div>
 {% endblock %}
