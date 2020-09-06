@@ -14,10 +14,13 @@ body {
 
 
 }
+
 .bluenav{
     background-color: #2F435E !important;
 height: 50px;
 }
+
+
 #logo_face {
     width: 70px;
     border-style: solid;
