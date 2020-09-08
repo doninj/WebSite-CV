@@ -1,0 +1,8 @@
+{% include "base.html.twig" %}
+
+{% for projets in projet %}
+    {{ projets.title }}
+    {{ projets.description }}
+   <a href="{{path('projetId',{'id':projets.id})}}"> <img id="saaa"src="{{ projets.images }}" alt=""></a>
+
+{% endfor %}
