@@ -32,6 +32,11 @@ class Projet
      */
     private $images;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="projets")
+     */
+    private $Category;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -69,6 +74,18 @@ class Projet
     public function setImages(string $images): self
     {
         $this->images = $images;
+
+        return $this;
+    }
+
+    public function getCategory(): ?Category
+    {
+        return $this->Category;
+    }
+
+    public function setCategory(?Category $Category): self
+    {
+        $this->Category = $Category;
 
         return $this;
     }
