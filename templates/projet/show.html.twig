@@ -3,10 +3,9 @@
 {% block title %}{% endblock %}
 {% block body %}
 
-
  <h1> {{ projets.title }}</h1>
  <br>
- <h1> {{projet.category}}</h1>
+ <h1> Categorie: {{projets.category.name}}</h1>
     <img src="{{ projets.images }}">
     
     {% endblock %}  

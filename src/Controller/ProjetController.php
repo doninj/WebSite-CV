@@ -46,11 +46,8 @@ class ProjetController extends AbstractController
         {
             $em->persist($category);
             $em->flush();
-
             return$this->redirectToRoute('app_home');
-
         }
-
         return $this->render('projet/category.html.twig', ['form'=>$form->createView()]);
 
     }
